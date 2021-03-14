@@ -9,8 +9,8 @@ fun main() {
 
     println("--imprime maior salario ( com o $ { . max () } ou menor salario com o $ { . min () e a média com avarega} ---")
 
-    println("Maior salario: ${salarios.max()}")
-    println("Menor salario: ${salarios.min()}")
+    println("Maior salario: ${salarios.maxOrNull()}")
+    println("Menor salario: ${salarios.minOrNull()}")
     println("Media salarial: ${(salarios.average())}")
 
     println("--imprime o item maior ---")
